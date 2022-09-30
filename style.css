@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    background-color: lightblue;
+    color: darkslategrey;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 15vh;
+    font-size: 2.5vh;
+}
+
+main {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.autora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.autora img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1vh;
+}
+
+h1 {
+    font-size: 4vh;
+}
+
+.projetos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    font-size: 3vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+.image {
+    width: 90%;
+    height: 40vh;
+    margin-left: 10vh;
+}
+
+div {
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div section {
+    width: 30vw;
+}
+
+.contatos {
+    flex-direction: column;
+    justify-content: center;
+}
